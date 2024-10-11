@@ -19,10 +19,10 @@ namespace CourseManagementSystem_v1
 
         }
 
-        //public override string DisplayCourseInfo()
-        //{
-        //    return base.DisplayCourseInfo()+ "$,CourseLink:{courseLink},FileSize:{fileSize}";
-        //}
+        public override string DisplayCourseInfo()
+        {
+            return base.DisplayCourseInfo() + "$,CourseLink:{courseLink},FileSize:{fileSize}";
+        }
 
     }
 }
