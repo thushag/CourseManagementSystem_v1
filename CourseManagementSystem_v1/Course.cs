@@ -8,10 +8,10 @@ namespace CourseManagementSystem_v1
 {
     public class Course
     {
-        private string CourseId;
-        private string Title;
-        private string Duration;
-        private decimal Price;
+        public string CourseId;
+        public string Title;
+        public string Duration;
+        public decimal Price;
 
         public Course(string courseId, string title, string duration, decimal price)
         {
@@ -20,17 +20,24 @@ namespace CourseManagementSystem_v1
             Duration = duration;
             Price = price;
         }
-        public void set 
-      
-      //  public string CourseId {
-      //  get { return courseId; }
-      //  }
-       // public string Title { get { return title; } }
 
-        public override string ToString()
+        //public void SetCourseId()
+        //{
+        //    this.courseId = CourseId;
+        //}
+
+        //public int GetCourseId()
+        //{
+        //    return CourseId;
+        //}
+       
+        
+       public override string ToString()
         {
             return $"ID:{CourseId},Title:{Title},Duration:{Duration},Price:{Price}";
         }
+
+        
 
     }
 }
