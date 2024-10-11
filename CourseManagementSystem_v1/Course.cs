@@ -21,7 +21,7 @@ namespace CourseManagementSystem_v1
             Price = price;
         }
 
-        //public void SetCourseId()
+        //public void Set CourseId()
         //{
         //    this.courseId = CourseId;
         //}
@@ -30,14 +30,16 @@ namespace CourseManagementSystem_v1
         //{
         //    return CourseId;
         //}
-       
-        
-       public override string ToString()
+      
+        public override string ToString()
         {
             return $"ID:{CourseId},Title:{Title},Duration:{Duration},Price:{Price}";
         }
 
-        
+        //public virtual string DisplayCourseInfo()
+        //{
+        //    return $"ID:{CourseId},Title:{Title},Duration:{Duration},Price:{Price}";
+        //}
 
     }
 }
