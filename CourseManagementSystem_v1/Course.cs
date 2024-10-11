@@ -12,6 +12,7 @@ namespace CourseManagementSystem_v1
         public string Title;
         public string Duration;
         public decimal Price;
+        public static int TotalCourses;
 
         public Course(string courseId, string title, string duration, decimal price)
         {
@@ -19,6 +20,8 @@ namespace CourseManagementSystem_v1
             Title = title;
             Duration = duration;
             Price = price;
+            TotalCourses++;
+
         }
 
         //public void Set CourseId()
