@@ -10,7 +10,7 @@ namespace CourseManagementSystem_v1
     {
          List<Course> courses = new List<Course>();
 
-        public void CreateCourse(string title, string duration, decimal price)
+        public void CreateCourse(int id, string title, string duration, decimal price)
         {
             var courseobj = new Course(courses.Count + 1), title, duration, price);
             courses.Add(courseobj);
